@@ -16,3 +16,4 @@
 !/log/.keep
 /tmp
 dump.rdb
+/coverage
