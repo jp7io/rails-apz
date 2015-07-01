@@ -116,6 +116,7 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
+    recaptcha (0.4.0)
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
@@ -178,6 +179,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.3)
+  recaptcha
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sidekiq
