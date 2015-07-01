@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
+
   resources :authors
   resources :articles
   # The priority is based upon order of creation: first created -> highest priority.

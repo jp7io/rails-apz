@@ -1,8 +1,8 @@
-<p id="notice"><%= notice %></p>
+<%= render 'layouts/flash' %>
 
 <h1>Listing Authors</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Name</th>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Author', new_author_path %>
+<%= link_to 'New Author', new_author_path, class: 'btn btn-primary' %>

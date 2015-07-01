@@ -8,7 +8,20 @@
 </head>
 <body>
 
-<%= yield %>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div id="navbar">
+      <ul class="nav navbar-nav">
+        <%= link_to('Rails Apz', '/', class: 'navbar-brand') %>
+        <li><%= link_to('Articles', articles_path) %></li>
+        <li><%= link_to('Authors', authors_path) %></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <%= yield %>
+</div>
 
 </body>
 </html>

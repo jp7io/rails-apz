@@ -1,8 +1,8 @@
-<p id="notice"><%= notice %></p>
+<%= render 'layouts/flash' %>
 
 <h1>Listing Articles</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Article', new_article_path %>
+<%= link_to 'New Article', new_article_path, class: 'btn btn-primary' %>
