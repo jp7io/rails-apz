@@ -19,6 +19,10 @@
     <%= f.label :content %><br>
     <%= f.text_area :content %>
   </div>
+  <div class="field">
+    <%= f.label :author %><br>
+    <%= f.collection_select(:author_id, Author.all, :id, :name, prompt: 'Select Author') %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
