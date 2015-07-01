@@ -36,5 +36,8 @@ module LearningRails
     }
 
     config.active_job.queue_adapter = :sidekiq
+
+    config.cache_store = :redis_store
+
   end
 end

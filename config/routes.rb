@@ -6,6 +6,9 @@ Rails.application.routes.draw do
     resources :recommendations, only: [:new, :create]
   end
 
+  get 'weather'        => 'weather#show'
+  get 'weather/update' => 'weather#update'
+
   require 'sidekiq/web'
   mount Sidekiq::Web => '/sidekiq'
   # The priority is based upon order of creation: first created -> highest priority.

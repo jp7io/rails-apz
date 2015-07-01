@@ -48,3 +48,4 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sidekiq'
 gem 'sinatra', require: nil
 gem 'recaptcha', require: 'recaptcha/rails'
+gem 'redis-rails'
