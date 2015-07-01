@@ -15,3 +15,29 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+
+// Add Ajax CRUD
+var ready;
+ready = function() {
+  var container, modal;
+  modal = $("#modal");
+  container = $("#container");
+  container.on("ajax:success", ".btn[data-remote=true]", function(e, data, status, xhr) {
+    modal.find(".modal-body").html(xhr.responseText);
+    modal.modal('show');
+  }).on("ajax:error", function(e, xhr, status, error) {
+    container.append("<p>ERROR</p>");
+  });
+  modal.on("ajax:success", "form", function(e, data, status, xhr) {
+    if (xhr.responseText.indexOf('was successfully created') !== -1) {
+      container.html(xhr.responseText);
+      modal.modal('hide');
+    } else {
+      modal.find(".modal-body").html(xhr.responseText);
+    }
+  }).on("ajax:error", function(e, xhr, status, error) {
+    modal.append("<p>ERROR</p>");
+  });
+}
+$(document).ready(ready);
+$(document).on('page:load', ready);
