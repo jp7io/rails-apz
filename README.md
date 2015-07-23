@@ -6,6 +6,27 @@
 [![Code Climate](https://codeclimate.com/github/jp7internet/rails-apz/badges/gpa.svg)](https://codeclimate.com/github/jp7internet/rails-apz)
 [![Test Coverage](https://codeclimate.com/github/jp7internet/rails-apz/badges/coverage.svg)](https://codeclimate.com/github/jp7internet/rails-apz/coverage)
 
-* Live Demo: https://rails-apz.herokuapp.com
-* Step-by-Step Guide: https://github.com/jp7internet/rails-apz/wiki
-* Screenshots: https://github.com/jp7internet/rails-apz/wiki/Screenshots
+####  Live Demo
+
+* Heroku: https://rails-apz.herokuapp.com
+
+#### Step-by-Step Guide
+
+https://github.com/jp7internet/rails-apz/wiki
+
+#### Screenshots
+
+https://github.com/jp7internet/rails-apz/wiki/Screenshots
+
+#### Includes
+
+* Rails 4.2
+* Ajax com UJS
+* CSS with Bootstrap
+* SimpleForm
+* Action Mailer
+* Active Job with Sidekiq e Redis
+* Tests
+* Continuous integration with Code Climate and Travis
+* Deploy with Heroku
+* Monitoring with Papertrail
