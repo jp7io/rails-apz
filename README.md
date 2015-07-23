@@ -8,7 +8,7 @@
 
 ####  Live Demo
 
-* Heroku: https://rails-apz.herokuapp.com
+https://rails-apz.herokuapp.com
 
 #### Step-by-Step Guide
 
