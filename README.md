@@ -21,11 +21,11 @@ https://github.com/jp7internet/rails-apz/wiki/Screenshots
 #### Includes
 
 * Rails 4.2
-* Ajax com UJS
+* Ajax with UJS
 * CSS with Bootstrap
 * SimpleForm
 * Action Mailer
-* Active Job with Sidekiq e Redis
+* Active Job with Sidekiq and Redis
 * Tests
 * Continuous integration with Code Climate and Travis
 * Deploy with Heroku
