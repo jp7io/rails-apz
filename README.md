@@ -18,6 +18,10 @@ https://github.com/jp7internet/rails-apz/wiki
 
 https://github.com/jp7internet/rails-apz/wiki/Screenshots
 
+#### Screencast
+
+https://www.youtube.com/watch?v=_PiY0gUXAe8&list=PLFEMeqXSeh3xt7IN4kPUFAZYDUFuNqUBl
+
 #### Includes
 
 * Rails 4.2
