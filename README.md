@@ -10,7 +10,7 @@
 
 https://rails-apz.herokuapp.com
 
-#### Step-by-Step Guide
+#### Step-by-Step Tutorial
 
 https://github.com/jp7internet/rails-apz/wiki
 
@@ -20,7 +20,7 @@ https://github.com/jp7internet/rails-apz/wiki/Screenshots
 
 #### Screencast
 
-https://www.youtube.com/watch?v=_PiY0gUXAe8&list=PLFEMeqXSeh3xt7IN4kPUFAZYDUFuNqUBl
+https://www.youtube.com/watch?v=_PiY0gUXAe8&list=PLFEMeqXSeh3xt7IN4kPUFAZYDUFuNqUBl (portuguese only)
 
 #### Includes
 
