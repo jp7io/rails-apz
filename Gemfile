@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
+gem 'rails', '4.2.5'
 # Use Postgres as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -45,7 +45,7 @@ group :development, :test do
 end
 
 gem 'simple_form'
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sidekiq'
 gem 'sinatra', require: nil
 gem 'recaptcha', require: 'recaptcha/rails'
