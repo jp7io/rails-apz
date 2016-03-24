@@ -48,7 +48,7 @@ end
 
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'sidekiq'
+gem 'sidekiq', '~> 3.0'
 gem 'sinatra', require: nil
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'redis-rails'
