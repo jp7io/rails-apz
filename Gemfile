@@ -47,7 +47,7 @@ group :development do
 end
 
 gem 'simple_form', '~> 3.0'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sidekiq', '~> 3.0'
 gem 'sinatra', require: nil
 gem 'recaptcha', '~> 2.0', require: 'recaptcha/rails'
