@@ -1,12 +1,12 @@
 class Weather
-  
+
   def self.read
     Rails.cache.read('weather')
   end
 
   def self.write
     require 'open-uri'
-    json = open("http://api.openweathermap.org/data/2.5/weather?q=Sao_Paulo,br&units=metric&APPID=#{ENV['WEATHER_APPID']}").read
+    json = open("https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo,br&units=metric&APPID=#{ENV['WEATHER_APPID']}").read
     hash = JSON.parse json
     hash['datetime'] = Time.now.to_i
     Rails.cache.write('weather', hash)
