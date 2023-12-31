@@ -2,9 +2,9 @@
 
 #### The guide to build a Rails 4.2 app from a to z.
 
-[![Build Status](https://travis-ci.org/jp7internet/rails-apz.svg?branch=master)](https://travis-ci.org/jp7internet/rails-apz)
-[![Code Climate](https://codeclimate.com/github/jp7internet/rails-apz/badges/gpa.svg)](https://codeclimate.com/github/jp7internet/rails-apz)
-[![Test Coverage](https://codeclimate.com/github/jp7internet/rails-apz/badges/coverage.svg)](https://codeclimate.com/github/jp7internet/rails-apz/coverage)
+[![Build Status](https://travis-ci.org/jp7io/rails-apz.svg?branch=master)](https://travis-ci.org/jp7io/rails-apz)
+[![Code Climate](https://codeclimate.com/github/jp7io/rails-apz/badges/gpa.svg)](https://codeclimate.com/github/jp7io/rails-apz)
+[![Test Coverage](https://codeclimate.com/github/jp7io/rails-apz/badges/coverage.svg)](https://codeclimate.com/github/jp7io/rails-apz/coverage)
 
 ####  Live Demo
 
@@ -12,11 +12,11 @@ https://rails-apz.herokuapp.com
 
 #### Step-by-Step Tutorial
 
-https://github.com/jp7internet/rails-apz/wiki
+https://github.com/jp7io/rails-apz/wiki
 
 #### Screenshots
 
-https://github.com/jp7internet/rails-apz/wiki/Screenshots
+https://github.com/jp7io/rails-apz/wiki/Screenshots
 
 #### Screencast
 
